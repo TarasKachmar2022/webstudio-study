@@ -1,0 +1,51 @@
+:root {
+  /* Text color */
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --text-color-white: #ffffff;
+  /* Logo text color */
+  --logo-text-color-black: #000000;
+  --logo-text-color-white: #ffffff;
+  /* Background color */
+  --backgraund-color-white: #ffffff;
+  --backgraund-color-grey: #f5f4fa;
+  --backgraund-color-dark: #2f303a;
+  /* Accent color */
+  --accent-color: #2196f3;
+  --accent-color-hover-btn: #188ce8;
+  /* Icon color */
+  --icon-color-white: #ffffff;
+  --icon-color-grey: #afb1b8;
+  /* Other */
+  --indent: 30px;
+  --item: 1;
+  --anim-fast: 250ms;
+  --transition-func: cubic-bezier(0.4, 0, 0.2, 1);
+  --blue: #0c9eca;
+}
+// Sass variables
+
+// :root{
+//     --indent: 30px;
+//     --item: 4;
+// }
+// /* Text color */
+// $primary-text-color: #757575;
+// $title-text-color: #212121;
+// $text-color-white: #ffffff;
+// /* Logo text color */
+// $logo-text-color-black: #000000;
+// $logo-text-color-white: #ffffff;
+// /* Background color */
+// $backgraund-color-white: #ffffff;
+// $backgraund-color-grey: #F5F4FA;
+// $backgraund-color-dark: #2F303A;
+// /* Accent color */
+// $accent-color: #2196F3;
+// $accent-color-hover-btn: #188CE8;
+// /* Icon color */
+// $icon-color-white: #ffffff;
+// $icon-color-grey: #AFB1B8;
+// /* Other */
+// $anim-fast: 2500ms;
+// $transition-func: cubic-bezier(0.4, 0, 0.2, 1);

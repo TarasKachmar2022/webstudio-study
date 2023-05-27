@@ -1,0 +1,28 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    margin: 0 auto;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    color: currentColor;
+    text-decoration: none;
+}
+
+.title {
+    font-weight: 700;
+    color: var(--title-text-color);
+}
+
+// Приклад sass змінних
+// .title {
+//     font-weight: 700;
+//     color: $title-text-color;
+// }

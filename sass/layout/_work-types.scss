@@ -1,0 +1,28 @@
+.work-types {
+    padding-top: 0;
+    @media screen and (max-width: 1199px) {
+        display: none;
+    }
+}
+
+.work-types__list {
+    --item: 3;
+}
+
+.work-types__item {
+    position: relative;
+}
+
+.work-types__descr {
+    position: absolute;
+    left: 0;
+    bottom: 0%;
+    font-weight: 700;
+    line-height: calc(16/14);
+    text-align: center;
+    padding: 27px;
+    width: 100%;
+    color: var(--text-color-white);
+    background-color: rgba(47, 48, 58, 0.8);
+    text-transform: uppercase;
+}

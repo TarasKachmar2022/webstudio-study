@@ -1,0 +1,65 @@
+.modal {
+    width: 320px;
+    background-color: var(--backgraund-color-white);
+    border-radius: 4px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    padding: 40px;
+    overflow: auto;
+    opacity: 1;
+    transform: translate(-50%);
+    transition: transform var(--anim-fast) var(--transition-func);
+    @media screen and (max-width: 479px) {
+        width: 100vw;
+        height: 100vh;
+    }
+    @media screen and (min-width: 450px) {
+        width: 450px;
+    }
+    @media screen and (min-width: 480px) {
+        height: 609px;
+    }
+    @media screen and (min-width: 768px) {
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    @media screen and (min-width: 1200px) {
+        width: 528px;
+        min-height: 581px;
+    }
+}
+.backdrop{
+    overflow: auto;
+}
+.backdrop.is-hidden modal {
+    transform: translate(-50%, -50%) scale(0) rotate(90deg);
+}
+
+.modal-close-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: fill var(--anim-fast) var(--transition-func);
+    
+    &:hover,
+    &:focus {
+        fill: var(--accent-color);
+    }
+}
+
+
+
+
+
+
